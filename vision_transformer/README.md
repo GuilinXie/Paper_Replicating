@@ -13,7 +13,7 @@ This repo implemented the ViT-base model using **PyTorch** from the paper of *[A
 
 * Results from training my own ViT model **from scratch**
 
-![1709753282695](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/result_loss_from_scratch.jpg)        ![1709753292112](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/result_acc_from_scratch.jpg)
+![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/result_loss_from_scratch.jpg) ![1709753292112](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/result_acc_from_scratch.jpg)
 
 Firstly, this result shows that the losses are decreasing, and this indicates the model has learned something.
 
@@ -40,7 +40,7 @@ python predict.py --model ./models/vit_3cls.py  -img_path ./data/img.jpg
 
 Result using ViT model training from scratch
 
-![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_pizza.png)    ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_stead.png)   ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_sushi.png)
+![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_pizza.png) ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_stead.png) ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_sushi.png)
 
 Results using ViT model training by transfer learning
 
