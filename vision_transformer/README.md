@@ -41,7 +41,7 @@ python predict.py --model ./models/vit_3cls.py  -img_path ./data/img.jpg
 Prediction by ViT model training from scratch
 A pizza            |  A steak |  A sushi 
 :-------------------------:|:-------------------------: | :-------------------------:
-![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_pizza.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_stead.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_sushi.png)
+![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_pizza.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_steak.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_sushi.png)
 
   
 Prediction by ViT model training with transfer learning
