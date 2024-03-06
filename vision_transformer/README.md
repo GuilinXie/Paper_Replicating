@@ -39,9 +39,11 @@ python predict.py --model ./models/vit_3cls.py  -img_path ./data/img.jpg
 ```
 
 Result using ViT model training from scratch
+Solarized dark             |  Solarized Ocean|  Solarized Ocean 
+:-------------------------:|:-------------------------: | :-------------------------:
+![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_pizza.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_stead.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_sushi.png)
 
-![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_pizza.png) ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_stead.png) ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_sushi.png)
-
+  
 Results using ViT model training by transfer learning
 
 ![1709756544677](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_pizza.png)  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_steak.png) ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_sushi.png)
