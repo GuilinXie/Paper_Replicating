@@ -1,7 +1,14 @@
 
 # Introduction
 
-This repo implemented the ViT-base model using **PyTorch** from the paper of *[An Image is Worth 16 * 16 Words: Transformers for Image Recognition at Scale.](https://arxiv.org/abs/2010.11929)*
+This repo implemented the ViT-base model using **PyTorch** following the paper of *[An Image is Worth 16 * 16 Words: Transformers for Image Recognition at Scale.](https://arxiv.org/abs/2010.11929)*
+
+In the Code Structure section, I illustrated the modular codes of this project, including implementing the ViT model, customizing Dataset, Dataloader,  training, testing, logging metrics, and predicting images.
+
+In the Training Result section, I compared training loss and test loss from training the ViT model from scratch, and training from transfer learning with pre-trained torchvision.models.ViT_B_16_Weights.DEFAULT.
+
+Finally, in the Prediction Result section, I visualized the prediction results and probabilities for testing images to show the model's performance.
+
 
 # Code Structure
 
@@ -19,7 +26,7 @@ Firstly, this result shows that the losses are decreasing, and this indicates th
 
 Secondly, the losses are converging. This means that the training works well.
 
-However the accuracies fluctuate near the probability of 0.35. This means that our model is too large, and our dataset is to small for it to train from scratch.
+However, the accuracies fluctuate near the probability of 0.35. This means that our model is too large, and our dataset is to small for it to train from scratch.
 
 
 * Results from  **transfer learning** using
@@ -42,14 +49,14 @@ Prediction by ViT model training from scratch
 A pizza            |  A steak |  A sushi 
 :-------------------------:|:-------------------------: | :-------------------------:
 ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_pizza.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_steak.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_sushi.png)
-
+The problem with this model is that it tends to predict all classes ("pizza", "steak", "sushi") to be one single class("pizza").
   
 Prediction by ViT model training with transfer learning
 
 A pizza            |  A steak |  A sushi 
 :-------------------------:|:-------------------------: | :-------------------------:
 ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_pizza.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_steak.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_sushi.png)
-
+The transfer learning model solves the above problem and predicts all three classes correctly with high probability.
 
 
 # Reference
