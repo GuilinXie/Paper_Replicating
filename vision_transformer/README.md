@@ -38,15 +38,17 @@ After using transfer learning with a pre-trained ViT_B_16 base model, the accura
 python predict.py --model ./models/vit_3cls.py  -img_path ./data/img.jpg
 ```
 
-Result using ViT model training from scratch
-Solarized dark             |  Solarized Ocean|  Solarized Ocean 
+Prediction by ViT model training from scratch
+A pizza            |  A steak |  A sushi 
 :-------------------------:|:-------------------------: | :-------------------------:
 ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_pizza.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_stead.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_sushi.png)
 
   
-Results using ViT model training by transfer learning
+Prediction by ViT model training with transfer learning
 
-![1709756544677](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_pizza.png)  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_steak.png) ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_sushi.png)
+A pizza            |  A steak |  A sushi 
+:-------------------------:|:-------------------------: | :-------------------------:
+![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_pizza.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_steak.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_sushi.png)
 
 
 
