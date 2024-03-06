@@ -1,13 +1,20 @@
+# Contents of Table
+
+* [Introduction](#introduction)
+* [Code Structure](#code_structure)
+* [Training Result](#training_result)
+* [Prediction Result](#prediction_result)
+* [Reference](#reference)
 
 # Introduction
 
 This repo implemented the ViT-base model using **PyTorch** following the paper of *[An Image is Worth 16 * 16 Words: Transformers for Image Recognition at Scale.](https://arxiv.org/abs/2010.11929)*
 
-In the Code Structure section, I illustrated the modular codes of this project, including implementing the ViT model, customizing Dataset, Dataloader,  training, testing, logging metrics, and predicting images.
+The Code Structure section shows the modular structure of this project, including the ViT model, Dataset, Dataloader, training and testing loop, metrics logging, and predicting.
 
-In the Training Result section, I compared training loss and test loss from training the ViT model from scratch, and training from transfer learning with pre-trained torchvision.models.ViT_B_16_Weights.DEFAULT.
+The Training Result section compares training and testing loss from training the ViT model from scratch, and from transfer learning.
 
-Finally, in the Prediction Result section, I visualized the prediction results and probabilities for testing images to show the model's performance.
+Finally, the Prediction Result section visualizes the prediction results and probabilities.
 
 
 # Code Structure
