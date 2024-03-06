@@ -52,18 +52,21 @@ After using transfer learning with a pre-trained ViT_B_16 base model, the accura
 python predict.py --model ./models/vit_3cls.py  -img_path ./data/img.jpg
 ```
 
-Prediction by ViT model training from scratch
+Prediction by ViT model training from scratch.
+The problem with this model is that it tends to predict all classes ("pizza", "steak", "sushi") to be one single class("pizza").
 A pizza            |  A steak |  A sushi 
 :-------------------------:|:-------------------------: | :-------------------------:
 ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_pizza.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_steak.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_sushi.png)
-The problem with this model is that it tends to predict all classes ("pizza", "steak", "sushi") to be one single class("pizza").
+
+
+
   
 Prediction by ViT model training with transfer learning
+The transfer learning model solves the above problem and predicts all three classes correctly with high probability.
 
 A pizza            |  A steak |  A sushi 
 :-------------------------:|:-------------------------: | :-------------------------:
 ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_pizza.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_steak.png)  |  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_sushi.png)
-The transfer learning model solves the above problem and predicts all three classes correctly with high probability.
 
 
 # Reference
