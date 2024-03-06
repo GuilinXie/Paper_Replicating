@@ -1,7 +1,7 @@
 
 # Introduction
 
-This repo implemented the *ViT-base model using **PyTorch** * from the paper of *[An Image is Worth 16 * 16 Words: Transformers for Image Recognition at Scale.](https://arxiv.org/abs/2010.11929)*
+This repo implemented the ViT-base model using **PyTorch** * from the paper of *[An Image is Worth 16 * 16 Words: Transformers for Image Recognition at Scale.](https://arxiv.org/abs/2010.11929)*
 
 # Code Structure
 
@@ -13,7 +13,7 @@ This repo implemented the *ViT-base model using **PyTorch** * from the paper of 
 
 * Results from training my own ViT model **from scratch**
 
-![1709753282695](image/README/1709753282695.png)        ![1709753292112](image/README/1709753292112.png)
+![1709753282695](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/result_loss_from_scratch.jpg)        ![1709753292112](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/result_acc_from_scratch.jpg)
 
 Firstly, this result shows that the losses are decreasing, and this indicates the model has learned something.
 
