@@ -6,7 +6,7 @@ This repo implemented the *ViT-base model using **PyTorch** * from the paper of 
 # Code Structure
 
 
-![1709751711286](image/README/1709751711286.png)
+![1709751711286](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/vision_transformer.png)
 
 
 # Training Result
