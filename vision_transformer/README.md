@@ -1,7 +1,7 @@
 
 # Introduction
 
-This repo implemented the ViT-base model using **PyTorch** * from the paper of *[An Image is Worth 16 * 16 Words: Transformers for Image Recognition at Scale.](https://arxiv.org/abs/2010.11929)*
+This repo implemented the ViT-base model using **PyTorch** from the paper of *[An Image is Worth 16 * 16 Words: Transformers for Image Recognition at Scale.](https://arxiv.org/abs/2010.11929)*
 
 # Code Structure
 
@@ -19,7 +19,7 @@ Firstly, this result shows that the losses are decreasing, and this indicates th
 
 Secondly, the losses are converging. This means that the training works well.
 
-But the accuracies functuate near the probability of 0.35. This means that our model is too large, and our dataset is to small for it to train from scratch.
+However the accuracies fluctuate near the probability of 0.35. This means that our model is too large, and our dataset is to small for it to train from scratch.
 
 
 * Results from  **transfer learning** using
@@ -28,9 +28,9 @@ But the accuracies functuate near the probability of 0.35. This means that our m
 torchvision.models.ViT_B_16_Weights.DEFAULT
 ```
 
-![1709753324773](image/README/1709753324773.png)         ![1709753337975](image/README/1709753337975.png)
+![1709753324773](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/result_loss_pretrained.jpg)         ![1709753337975](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/result_acc_pretrained.jpg)
 
-After using transfer learning with pretrained ViT_B_16 base model, the accuracy can be as high as 0.95, and the loss are converging faster.
+After using transfer learning with a pre-trained ViT_B_16 base model, the accuracy can be as high as 0.95, and the loss are converging faster.
 
 # Prediction Result
 
@@ -40,11 +40,11 @@ python predict.py --model ./models/vit_3cls.py  -img_path ./data/img.jpg
 
 Result using ViT model training from scratch
 
-![1709756476316](image/README/1709756476316.png)    ![1709756494056](image/README/1709756494056.png)   ![1709756502741](image/README/1709756502741.png)
+![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_pizza.png)    ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_stead.png)   ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/scratch_sushi.png)
 
 Results using ViT model training by transfer learning
 
-![1709756544677](image/README/1709756544677.png)  
+![1709756544677](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_pizza.png)  ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_steak.png) ![](https://github.com/GuilinXie/Paper_Replicating/blob/main/vision_transformer/results/transfer_sushi.png)
 
 
 
