@@ -1,7 +1,7 @@
 # Contents of Table
 
 * [Introduction](#introduction)
-* [Code Structure](#code_structure)
+* [Code Structure](#code-structure)
 * [Training Result](#training_result)
 * [Prediction Result](#prediction_result)
 * [Reference](#reference)
