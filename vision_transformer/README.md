@@ -2,8 +2,8 @@
 
 * [Introduction](#introduction)
 * [Code Structure](#code-structure)
-* [Training Result](#training_result)
-* [Prediction Result](#prediction_result)
+* [Training Result](#training-result)
+* [Prediction Result](#prediction-result)
 * [Reference](#reference)
 
 # Introduction
