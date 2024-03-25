@@ -10,3 +10,4 @@ This repo implements papers in Computer Vision and Natural Language Processing a
 - [ ] Yolov8  
 - [ ] CenterNet  
 - [ ] UNet
+- [ ] [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
