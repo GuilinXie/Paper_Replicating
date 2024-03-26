@@ -11,3 +11,4 @@ This repo implements papers in Computer Vision and Natural Language Processing a
 - [ ] CenterNet  
 - [ ] UNet
 - [ ] [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
+- [ ] [Faster R-CNN](https://arxiv.org/pdf/1506.01497.pdf)
