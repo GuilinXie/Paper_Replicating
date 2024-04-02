@@ -1,6 +1,6 @@
 # Introduction
 
-This repo replicate papers in PyTorch for studying purpose.
+This repo replicates papers using PyTorch for studying purposes.
 
 # Object Detection
 
